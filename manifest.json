@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Israel Iron Dome",
+  "version": "1.0",
+  "description": "Defend the screen from falling missiles!",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_icon": "logo.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "victory.m4a",
+        "boom.wav",
+        "rocket.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
