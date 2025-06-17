@@ -29,23 +29,6 @@ Survive for 30 seconds to win! 🎉
 
 ---
 
-## 🛠️ Folder Structure
-
-Israel-Iron-Dome/
-│
-├── background.js
-├── content.js
-├── game.css
-├── rocket.png
-├── boom.wav
-├── victory.m4a
-├── manifest.json
-├── logo.png
-└── README.md
-
-
----
-
 ## 🔈 Mute Victory Sound
 
 At the end of the game, a mute button lets you control the final sound effect.  
